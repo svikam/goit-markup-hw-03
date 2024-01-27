@@ -28,9 +28,7 @@ img {
     padding-left: 156px;
     padding-right: 156px;
     margin: 0 auto;
-    outline: 2px solid red;
-}
-
+} 
 /*============HEADER===========*/
 
 .header {
@@ -191,6 +189,9 @@ img {
 /*============TEAM===========*/
 
 .team {
+}
+
+.team-container {
     background-color: #F4F4FD;
     padding-top: 120px;
     padding-bottom: 120px;
