@@ -93,6 +93,11 @@ img {
 
 .adress-list {
     display: flex;
+    gap: 40px;
+}
+
+.adress-list:last-child {
+    margin-right: 0;
 }
 
 .address-link {
@@ -101,11 +106,6 @@ img {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    gap: 40px;
-}
-
-.adress-list:last-child {
-    margin-right: 0;
 }
 
 .address-link:hover,
