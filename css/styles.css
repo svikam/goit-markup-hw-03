@@ -66,7 +66,6 @@ img {
     display: flex;
     justify-content: space-between;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .nav-link-list:last-child {
@@ -80,6 +79,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -101,6 +101,11 @@ img {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    gap: 40px;
+}
+
+.adress-list:last-child {
+    margin-right: 0;
 }
 
 .address-link:hover,
